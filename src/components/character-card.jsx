@@ -23,7 +23,7 @@ export default function CharacterCard({
       <Box>
         <Avatar alt={name} src={img} style={{ width: 60, height: 60 }} />
       </Box>
-      <Box ml={2}>
+      <Box ml={2} flex={1}>
         <Typography variant="subtitle1">{name}</Typography>
         <Typography variant="caption" color="textSecondary">
           Portrayed by {portrayed}

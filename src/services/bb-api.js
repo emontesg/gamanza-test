@@ -7,3 +7,7 @@ function getData(path) {
 export function getCharacters() {
   return getData('characters?limit=6')
 }
+
+export function getDeaths() {
+  return getData('deaths')
+}
