@@ -1,3 +1,6 @@
 module.exports = {
-  extends: '@kevinwolf'
+  extends: '@kevinwolf',
+  rules: {
+    'react/prop-types': 'off',
+  },
 }
