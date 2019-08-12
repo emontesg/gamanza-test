@@ -11,3 +11,7 @@ export function getCharacters() {
 export function getDeaths() {
   return getData('deaths')
 }
+
+export function getEpisodes() {
+  return getData('episodes')
+}
