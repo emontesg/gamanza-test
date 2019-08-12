@@ -39,8 +39,8 @@ function useDeathsList() {
 
   useEffect(() => {
     setLoading(true)
-    api.getDeaths().then((characters) => {
-      setData(characters)
+    api.getDeaths().then((deaths) => {
+      setData(deaths)
       setLoading(false)
     })
   }, [])
